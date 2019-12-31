@@ -1,0 +1,22 @@
+{
+  "name": "fe-netcapital",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaGH1/FE-Netcapital.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaGH1/FE-Netcapital/issues"
+  },
+  "homepage": "https://github.com/AnnaGH1/FE-Netcapital#readme",
+  "devDependencies": {}
+}

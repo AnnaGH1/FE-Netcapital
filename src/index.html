@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beers</title>
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="header">Beers</h1>
+    <main class="container">
+        <div class="loader">Loading...</div>
+        <div class="controls">
+            <button class="sort sort--default sort--active">Sort Default</button>
+            <button class="sort sort--name">Sort by name asc</button>
+            <button class="sort sort--abv">Sort by ABV desc</button>
+            <button class="sort sort--ibu">Sort by IBU desc</button>
+        </div>
+        <ul class="list"></ul>
+    </main>
+    <template id="card">
+        <li class="item">
+            <figure>
+                <figcaption class="item__info">
+                    <h2 class="item__name"></h2>
+                    <span class="item__tagline"></span>
+                    <div>ABV: <span class="item__abv"></span></div>
+                    <div>IBU: <span class="item__ibu"></span></div>
+                    <div>First brewed in <span class="item__date"></span></div>
+                </figcaption>
+                <img class="item__img" src="" alt="">
+            </figure>
+        </li>
+    </template>
+    <script src="./main.mjs" type="module"></script>
+</body>
+</html>
