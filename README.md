@@ -11,4 +11,4 @@ Download the project folder. The project has no dependencies.
 Run `node question1.js N` where N >= 1 to display the results
 
 ### Question 2
-Open `src/index.html` in a browser of your choice.
+Open `src/index.html` in a browser of your choice using a local server of your IDE or text editor.
